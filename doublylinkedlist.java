@@ -104,7 +104,48 @@ public class DoublyLinkedList {
 //            
 //            head = newhead;
             
+            //            find 2nd largest element
+               
+            // Node temp = head;
+            // int maxi = Integer.MIN_VALUE;
+            // int sec_maxi = Integer.MIN_VALUE;
+            // while(temp!=null) {
+            	
+            // 	if(temp.data>maxi) { 
+            // sec_maxi = maxi;
+            // 	maxi = temp.data;
+            // 	} else if(temp.data<maxi && temp.data>sec_maxi) {
+            // 		sec_maxi = temp.data;
+            // 	}
+            // 	temp = temp.next;
+            // }
+            // System.out.println(maxi);
+            // System.out.println(sec_maxi);
             
+
+
+			            // check if palindrome
+//            Node left = head;
+//            Node right = head;
+//            boolean palindrome = true;
+//            while(right.next!=null) {
+//            	right = right.next;
+//            }
+//            
+//            while(left!=right  && left.prev!=right) { // left.prev=right is imp for even length the pointers 
+//            	// left and rigth are never at same position so it can lead to infinte loop so it checks
+//            	// when they cross each other if left se phle right agya 
+//            	
+//            	if(left.data!=right.data) {
+//            		palindrome=false;
+//            		break;
+//            	}
+//            	left = left.next;
+//            	right = right.prev;
+//            }
+//            
+//            if(palindrome) System.out.println("true");
+//            else System.out.println("false");
             
             
            // print DLL
