@@ -24,7 +24,7 @@ class Solution {
     }
 
 
-    public int[] nextSmallerElement(int[] heights){
+    public int[] nextSmallerElement(int[] heights){  // this is the same as previous smaller element but we are traversing from right to left
         
         int[] pse = new int[heights.length];
         Stack<Integer> st = new Stack<>();
@@ -56,7 +56,7 @@ class Solution {
 
         for(int i=0;i<heights.length;i++){
 
-            maxi = Math.max(maxi,(nse[i]-pse[i]-1)*heights[i]);
+            maxi = Math.max(maxi,(nse[i]-pse[i]-1)*heights[i]);    // -1 because we are not including the pse and nse index in the width of rectangle
         }
         return maxi;
     }
